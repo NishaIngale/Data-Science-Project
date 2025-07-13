@@ -35,10 +35,12 @@ pima-diabetes-api/
 ---
 
 # 🧪 API Usage
+
 Endpoint: predict_diabetes
+
 Method: POST
 
-# *Payload (example):*
+*Payload (example):*
 {
   "Pregnancies": 3,
   "Glucose": 120,
@@ -49,20 +51,20 @@ Method: POST
   "DiabetesPedigreeFunction": 0.5,
   "Age": 33
 }
-# *Response:*
+*Response:*
 {
   "prediction": 1,  // 1 = diabetic, 0 = non-diabetic
   "probability": 0.84
 }
 
 
-# Dataset : https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
+Dataset : https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
 
-# Diabetes predictor:
-<img width="1432" height="1351" alt="Image" src="https://github.com/user-attachments/assets/2ca2eea0-c168-4d0b-9769-f52be3a8c74a" />
+Diabetes predictor:
+<img width="1432" height="1177" alt="Image" src="https://github.com/user-attachments/assets/745ebf2e-506a-4923-9006-eb3b4bbf086b" />
 
 
-# Diabeties Result:
+Diabeties Result:
 
 <img width="404" height="80" alt="Image" src="https://github.com/user-attachments/assets/f4a38d23-d3f5-4b09-923c-556b18758aa8" />
 
