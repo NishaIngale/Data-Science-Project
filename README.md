@@ -1,5 +1,5 @@
 # Data-Science-Project
-# 🧠 Pima Indians Diabetes Prediction API – Task 3 (CODTECH Internship)
+# Diabetes Prediction API 
 
 Developed using the Pima Indians Diabetes dataset from Kaggle, this project builds a complete pipeline—from data preprocessing and machine learning model training to API deployment using **FastAPI**.
 
@@ -49,18 +49,22 @@ Method: POST
   "DiabetesPedigreeFunction": 0.5,
   "Age": 33
 }
-
-# Diabetes predictor:
-
-
-
-# Diabeties Result:
-
 # *Response:*
 {
   "prediction": 1,  // 1 = diabetic, 0 = non-diabetic
   "probability": 0.84
 }
+
+
+# Dataset : https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
+
+# Diabetes predictor:
+<img width="1432" height="1351" alt="Image" src="https://github.com/user-attachments/assets/2ca2eea0-c168-4d0b-9769-f52be3a8c74a" />
+
+
+# Diabeties Result:
+
+<img width="404" height="80" alt="Image" src="https://github.com/user-attachments/assets/f4a38d23-d3f5-4b09-923c-556b18758aa8" />
 
 
 Project by Nisha under CODTECH Internship
