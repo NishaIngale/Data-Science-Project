@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diabetes Predictor</title>
+</head>
+<body>
+    <h2>Enter Patient Details</h2>
+    <form action="/predict" method="post">
+        {% for label in labels %}
+            <label>{{ label }}</label><br>
+            <input type="text" name="values"><br><br>
+        {% endfor %}
+        <input type="submit" value="Predict">
+    </form>
+    {% if prediction is not none %}
+        <h3>Prediction: {{ prediction }}</h3>
+    {% endif %}
+</body>
+</html>
