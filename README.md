@@ -51,6 +51,8 @@ Method: POST
   "DiabetesPedigreeFunction": 0.5,
   "Age": 33
 }
+
+
 *Response:*
 {
   "prediction": 1,  // 1 = diabetic, 0 = non-diabetic
@@ -58,7 +60,11 @@ Method: POST
 }
 
 
+
+
 Dataset : https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
+
+
 
 Diabetes predictor:
 <img width="1432" height="1177" alt="Image" src="https://github.com/user-attachments/assets/745ebf2e-506a-4923-9006-eb3b4bbf086b" />
